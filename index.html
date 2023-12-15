@@ -10,7 +10,6 @@
       name="description"
       content="Aprendiendo HTML y CSS avanzados para el proyecto 3"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -48,7 +47,7 @@
               >
             </li>
             <li>
-              <a class="nav__link" href="#about-link">Contactos</a>
+              <a class="nav__link" href="#contact-link">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -175,10 +174,177 @@
             </label>
           </form>
         </section>
-        <section class="menu" id="menu-link"></section>
-        <section class="about" id="about-link"></section>
+        <section class="menu" id="menu-link">
+          <h2 class="menu__title">Menú</h2>
+          <h3 class="menu__subtitle">
+            Elaboramos nuestro café con granos certificados de comercio justo,
+            tostados localmente, y usamos tazas biodegradables. Todos los tés de
+            nuestra colección a $2/taza
+          </h3>
+          <div class="cards">
+            <div class="card">
+              <h4 class="card__title">De filtro</h4>
+              <ul class="card__list">
+                <li class="card__list_item">
+                  Regular (12 oz)
+                  _______________________________________________________
+                  <span class="card__list-divider"></span>
+                  $1
+                </li>
+                <li class="card__list_item">
+                  Grande (16 oz)
+                  ____________________________________________________
+                  <span class="card__list-divider"></span>
+                  $1.25
+                </li>
+                <li class="card__list_item">
+                  XL (20 oz)
+                  __________________________________________________________
+                  <span class="card__list-divider"></span>
+                  $1.5
+                </li>
+                <li class="card__list_item">
+                  Tamaño familiar(24 oz, descafeinado)
+                  ____________________________
+                  <span class="card__list-divider"></span>
+                  $1.75
+                </li>
+                <li class="card__list_item">
+                  Café helado (16 oz)
+                  _______________________________________________
+                  <span class="card__list-divider"></span>
+                  $1.25
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h4 class="card__title">Espresso</h4>
+              <ul class="card__list">
+                <li class="card__list_item">
+                  Macchiato
+                  ________________________________________________________
+                  <span class="card__list-divider"></span>
+                  $2.25
+                </li>
+                <li class="card__list_item">
+                  Cortado
+                  ____________________________________________________________
+                  $2.5
+                </li>
+                <li class="card__list_item">
+                  Mocha
+                  _______________________________________________________________
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list_item">
+                  Amanecer en Bay Area (descafeinado)
+                  _____________________________
+                  <span class="card__list-divider"></span>
+                  $10
+                </li>
+              </ul>
+            </div>
+            <div class="card">
+              <h4 class="card__title">Repostería</h4>
+              <ul class="card__list">
+                <li class="card__list_item">
+                  Croissant de almendra
+                  _______________________________________________
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list_item">
+                  Pan de banana
+                  ____________________________________________________
+                  <span class="card__list-divider"></span>
+                  $1.75
+                </li>
+                <li class="card__list_item">
+                  Tarta de limón
+                  _______________________________________________________
+                  <span class="card__list-divider"></span>
+                  $3
+                </li>
+                <li class="card__list_item">
+                  Pastel Blue velvet
+                  _________________________________________________
+                  <span class="card__list-divider"></span>
+                  $3.75
+                </li>
+                <li class="card__list_item">
+                  Cookie web
+                  __________________________________________________________
+                  <span class="card__list-divider"></span>
+                  $2
+                </li>
+                <li class="card__list_item">
+                  Baguette fresco
+                  __________________________________________________
+                  <span class="card__list-divider"></span>
+                  $0.25
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about-link">
+          <h2 class="about__title">Sobre la cafeteria</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Nuestra cafetería se ubica en la Biblioteca Triple Peaks. Cuenta
+              con 6 mesas y WiFi gratuito.
+            </p>
+            <p class="about__paragraph">
+              Nuestra principal misión es mantener a nuestros comensales cómodos
+              y con energía.
+            </p>
+            <p class="about__paragraph">
+              Además, buscamos reducir nuestro impacto ambiental, así que no
+              vendemos tazas de un solo uso. ¡Pero puedes comprar una de
+              nuestras tazas reutilizables!
+            </p>
+          </div>
+          <div class="about__circle">
+            <div class="about__circle about__circle_animation_blurred"></div>
+          </div>
+        </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contact-link">
+        <div class="footer__content">
+          <img
+            src="images/logo_coffeeshop_light.svg"
+            alt="Triple Peaks Library Logo"
+            class="footer__logo"
+          />
+          <div class="footer__social">
+            <p class="footer__social-heading">Redes sociales</p>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="images/facebook_white.svg"
+                    alt="Facebook logo"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="images/instagram_white.svg"
+                    alt="Instagram logo"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Juan Molina</p>
+      </footer>
     </div>
   </body>
 </html>
